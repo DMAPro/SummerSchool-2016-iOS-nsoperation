@@ -13,6 +13,8 @@
 		87C685E91D2E3DAA009D11DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C685E71D2E3DAA009D11DF /* Main.storyboard */; };
 		87C685EB1D2E3DAA009D11DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C685EA1D2E3DAA009D11DF /* Assets.xcassets */; };
 		87C685EE1D2E3DAA009D11DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C685EC1D2E3DAA009D11DF /* LaunchScreen.storyboard */; };
+		87C685F71D2E3F11009D11DF /* DMAImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C685F61D2E3F11009D11DF /* DMAImageTableViewCell.m */; };
+		87C685FA1D2E468B009D11DF /* DMAImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C685F91D2E468B009D11DF /* DMAImageProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		87C685EA1D2E3DAA009D11DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87C685ED1D2E3DAA009D11DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87C685EF1D2E3DAA009D11DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C685F51D2E3F11009D11DF /* DMAImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMAImageTableViewCell.h; sourceTree = "<group>"; };
+		87C685F61D2E3F11009D11DF /* DMAImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMAImageTableViewCell.m; sourceTree = "<group>"; };
+		87C685F81D2E468B009D11DF /* DMAImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMAImageProvider.h; sourceTree = "<group>"; };
+		87C685F91D2E468B009D11DF /* DMAImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMAImageProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				87C685EC1D2E3DAA009D11DF /* LaunchScreen.storyboard */,
 				87C685EF1D2E3DAA009D11DF /* Info.plist */,
 				87C685DE1D2E3DAA009D11DF /* Supporting Files */,
+				87C685F51D2E3F11009D11DF /* DMAImageTableViewCell.h */,
+				87C685F61D2E3F11009D11DF /* DMAImageTableViewCell.m */,
+				87C685F81D2E468B009D11DF /* DMAImageProvider.h */,
+				87C685F91D2E468B009D11DF /* DMAImageProvider.m */,
 			);
 			path = BackgroundImageDownload;
 			sourceTree = "<group>";
@@ -151,7 +161,9 @@
 			files = (
 				87C685E61D2E3DAA009D11DF /* ViewController.m in Sources */,
 				87C685E31D2E3DAA009D11DF /* AppDelegate.m in Sources */,
+				87C685F71D2E3F11009D11DF /* DMAImageTableViewCell.m in Sources */,
 				87C685E01D2E3DAA009D11DF /* main.m in Sources */,
+				87C685FA1D2E468B009D11DF /* DMAImageProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
